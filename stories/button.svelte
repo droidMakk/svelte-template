@@ -2,9 +2,11 @@
     {text}
 </button>
 
-<style>
+<style lang="scss" >
+    $white: #eee;
+  
     .button {
-      border: 1px solid #eee;
+      border: 1px solid $white;
       border-radius: 3px;
       background-color: #FFFFFF;
       cursor: pointer;
