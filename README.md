@@ -1,16 +1,15 @@
-# svelte app
+# SVELTE TEMPLATE
 
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template-webpack.
+Create svelte project using webpack and sass. With support for storybook.
+
+> Future versions, to add relative imports, locale and other cool customizations.
 
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
-npx degit sveltejs/template-webpack svelte-app
+npx degit droidmakk/svelte-template svelte-app
 cd svelte-app
 ```
-
-*Note that you will need to have [Node.js](https://nodejs.org) installed.*
-
 
 ## Get started
 
@@ -21,44 +20,12 @@ cd svelte-app
 npm install
 ```
 
-...then start webpack:
-
+To start development 
 ```bash
 npm run dev
 ```
 
-Navigate to [localhost:8080](http://localhost:8080). You should see your app running. Edit a component file in `src`, save it, and the page should reload with your changes.
-
-
-## Deploying to the web
-
-### With [now](https://zeit.co/now)
-
-Install `now` if you haven't already:
-
+To Work with components (storybook )
 ```bash
-npm install -g now
-```
-
-Then, from within your project folder:
-
-```bash
-now
-```
-
-As an alternative, use the [Now desktop client](https://zeit.co/download) and simply drag the unzipped project folder to the taskbar icon.
-
-### With [surge](https://surge.sh/)
-
-Install `surge` if you haven't already:
-
-```bash
-npm install -g surge
-```
-
-Then, from within your project folder:
-
-```bash
-npm run build
-surge public
+npm run sb
 ```
